@@ -28,7 +28,6 @@ struct CallbackParam
 
 tracker_opencv tracker;
 VideoCapture *vc = NULL;
-
 void onMouse( int event, int x, int y, int flags, void* param )
 {
 	CallbackParam *p = (CallbackParam *)param;
