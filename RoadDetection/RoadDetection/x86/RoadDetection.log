@@ -1,0 +1,44 @@
+﻿빌드 시작: 2015-06-15 오후 2:00:30
+     1>2 노드의 "E:\도로검출\도로검출 program\RoadDetection\RoadDetection\RoadDetection.vcxproj" 프로젝트(Rebuild 대상)입니다.
+     1>_PrepareForClean:
+         "x86\RoadDetection.lastbuildstate" 파일을 삭제하고 있습니다.
+       InitializeBuildStatus:
+         "x86\RoadDetection.unsuccessfulbuild"에 연결(touching)하고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\opencv\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x86\\" /Fd"x86\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\IPM.cpp ..\Main2.cpp ..\tracker_opencv2.cpp
+         tracker_opencv2.cpp
+     1>c:\opencv\build\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\opencv\build\include\opencv2\legacy\compat.hpp(140): warning C4005: 'cvCvtPixToPlane' : 매크로 재정의
+                 e:\도로검출\도로검출 program\roaddetection\tracker_opencv2.h(17) : 'cvCvtPixToPlane'의 이전 정의를 참조하십시오.
+     1>c:\opencv\build\include\opencv2\legacy\compat.hpp(253): warning C4005: 'cvQueryHistValue_2D' : 매크로 재정의
+                 e:\도로검출\도로검출 program\roaddetection\tracker_opencv2.h(18) : 'cvQueryHistValue_2D'의 이전 정의를 참조하십시오.
+     1>e:\도로검출\도로검출 program\roaddetection\tracker_opencv2.cpp(137): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>e:\도로검출\도로검출 program\roaddetection\tracker_opencv2.cpp(149): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>e:\도로검출\도로검출 program\roaddetection\tracker_opencv2.cpp(150): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>e:\도로검출\도로검출 program\roaddetection\tracker_opencv2.cpp(212): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>e:\도로검출\도로검출 program\roaddetection\tracker_opencv2.cpp(444): warning C4101: 'gy' :참조되지 않은 지역 변수입니다.
+     1>e:\도로검출\도로검출 program\roaddetection\tracker_opencv2.cpp(444): warning C4101: 'sum' :참조되지 않은 지역 변수입니다.
+     1>e:\도로검출\도로검출 program\roaddetection\tracker_opencv2.cpp(444): warning C4101: 'gx' :참조되지 않은 지역 변수입니다.
+         Main2.cpp
+     1>e:\도로검출\도로검출 program\roaddetection\main2.cpp(155): warning C4244: '인수' : 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>e:\도로검출\도로검출 program\roaddetection\main2.cpp(156): warning C4244: '인수' : 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>e:\도로검출\도로검출 program\roaddetection\main2.cpp(157): warning C4244: '인수' : 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>e:\도로검출\도로검출 program\roaddetection\main2.cpp(158): warning C4244: '인수' : 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>e:\도로검출\도로검출 program\roaddetection\main2.cpp(165): warning C4244: '인수' : 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>e:\도로검출\도로검출 program\roaddetection\main2.cpp(166): warning C4244: '인수' : 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>e:\도로검출\도로검출 program\roaddetection\main2.cpp(167): warning C4244: '인수' : 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         IPM.cpp
+         코드를 생성하고 있습니다...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\도로검출\도로검출 program\RoadDetection\x86\RoadDetection.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x86\vc12\lib opencv_core249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_ml249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\도로검출\도로검출 program\RoadDetection\x86\RoadDetection.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\도로검출\도로검출 program\RoadDetection\x86\RoadDetection.lib" /MACHINE:X86 x86\IPM.obj
+         x86\Main2.obj
+         x86\tracker_opencv2.obj
+         RoadDetection.vcxproj -> E:\도로검출\도로검출 program\RoadDetection\x86\RoadDetection.exe
+       FinalizeBuildStatus:
+         "x86\RoadDetection.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "x86\RoadDetection.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"E:\도로검출\도로검출 program\RoadDetection\RoadDetection\RoadDetection.vcxproj" 프로젝트를 빌드했습니다(Rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:05.88
